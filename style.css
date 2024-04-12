@@ -19,6 +19,17 @@ body {
     justify-content: space-between;
 }
 
+.phoneContainer {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(calc(-50% + 2px));
+}
+
+.aboutMe {
+    text-align: center;
+}
+
 .image {
     width: 100%;
 }
@@ -41,7 +52,7 @@ body {
     line-height: 20px;
     padding: 6px 16px;
     position: relative;
-    text-align: center;
+    text-align: start;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
